@@ -5,6 +5,7 @@ ans = 42
 
 for i in config.list_students():
     sys.path.insert(1, i)
+    # Add try except?
     import cal
     print(i)
     print(cal.plus(40,2)==ans)
